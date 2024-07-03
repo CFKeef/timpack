@@ -1,7 +1,6 @@
 import { useRouter } from 'next/navigation';
 import { useCallback, useMemo } from 'react';
 import { cx } from 'class-variance-authority';
-import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 import { GetConversationsQuery } from '~/graphql/generated/client';
 
 export const ConversationBox = ({
